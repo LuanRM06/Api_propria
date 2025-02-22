@@ -1,0 +1,70 @@
+body {
+    background-color: #1C1C1C;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+
+  .navbar {
+    background-color: #fcfcfc;
+    height: 75px ;
+  }
+
+
+  .navbar-brand img {
+    width: 100px;
+  }
+
+  .container {
+    margin-top: 50px;
+  }
+
+  h1 {
+    color: #E30613;
+  }
+
+  .input-group input {
+    border-radius: 0;
+    border: 2px solid #E30613;
+    color: #E30613;
+  }
+
+  .input-group button {
+    background-color: #E30613;
+    color: white;
+    border-radius: 0;
+  }
+
+  .input-group button:hover {
+    background-color: #C70000;
+  }
+
+  .card {
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #E30613;
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+  .card-title {
+    color: #E30613;
+  }
+
+  .card-text {
+    color: #DDD;
+  }
+
+  #driverCard {
+    display: none;
+  }
+
+  .btn-outline-secondary {
+    border-radius: 50px;
+  }
+
+  .text-non-focus {
+    color: #c56161;
+  }
