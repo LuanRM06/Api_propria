@@ -11,7 +11,7 @@ function SearchDriver() {
     let foundDriver = null;
 
     function fetchDrivers(offset) {
-        let driverApiUrl = `http://ergast.com/api/f1/drivers.json?limit=${limit}&offset=${offset}`;
+        let driverApiUrl = `https://ergast.com/api/f1/drivers.json?limit=${limit}&offset=${offset}`;
 
         fetch(driverApiUrl)
             .then(response => response.json())
